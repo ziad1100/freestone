@@ -1,0 +1,67 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <div class="images">
+    <div class="image">
+       <center> <img src="images/shoes.png" alt="shoes" class="image1"/></center><br/>
+        <hr>
+        <p class="para">Black sneaker</p>
+        <p style="float: left; margin-left:15px; margin-top: 15px; color: #000; opacity: 0.5;">$15.00</p>
+        <p style="float: right; margin-right:15px; margin-top: 15px; color: #000; opacity: 0.5;">Buy now</p>
+    </div>
+    <div class="image" >
+       <center> <img src="images/headphone.png" alt="headphone" class="image2"/></center><br/>
+        <hr>
+        <p class="para">Hand bag</p>
+        <p style="float: left; margin-left:15px; margin-top: 15px; color: #000; opacity: 0.5;">$45.00</p>
+        <p style="float: right; margin-right:15px; margin-top: 15px; color: #000; opacity: 0.5;">Buy now</p>
+    </div>
+    <div class="image">
+        <center><img src="images/armchair.png" alt="chair" class="image3"/></center><br/>
+        <hr>
+        <p class="para">Yellow wing chair</p>
+        <p style="float: left; margin-left:15px; margin-top: 15px; color: #000; opacity: 0.5;">$40.00</p>
+        <p style="float: right; margin-right:15px; margin-top: 15px; color: #000; opacity: 0.5;">Buy now</p>
+    </div>
+  </div>
+</body>
+</html> -->
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.images{
+height:600px;
+width: 100%;
+background-color: rgb(141, 139, 139,0.3); 
+display:flex;
+flex-wrap: wrap;
+gap:20px ;
+justify-content:center;
+align-items: center;
+}
+.images .image{
+    height: 320px;
+    width: calc(100% / 3 - 20px);
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+.images .image .para{
+    margin-top: 15px;
+    text-align: center;
+}
+.images .image img{
+    margin-top: 20px;
+}
+hr{
+    opacity: 0.2;
+}
+
